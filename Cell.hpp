@@ -4,6 +4,7 @@
 class Cell {
       private:
               int currentTemp;
+              int nextTemp;
       public:
              void setCurrentTemp(int);  
              int getCurrentTemp();      
